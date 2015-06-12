@@ -1,0 +1,25 @@
+./multiport.py -h 
+                 _ _   _                  _   
+ _ __ ___  _   _| | |_(_)_ __   ___  _ __| |_ 
+| '_ ` _ \| | | | | __| | '_ \ / _ \| '__| __|
+| | | | | | |_| | | |_| | |_) | (_) | |  | |_ 
+|_| |_| |_|\__,_|_|\__|_| .__/ \___/|_|   \__|
+                        |_|    v1.0                  
+
+Check the status of ports with all scans at once
+by Interference Security
+   	
+usage: multiport.py [-h] [-p] [-pl] [-pr] [-t] target
+
+positional arguments:
+  target      Target address
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -p          Single port e.g. 80
+  -pl         Port list e.g. 21,22,80
+  -pr         Port range e.g. 20-30
+  -t          Timeout value (default 2)
+
+
+Example: ./multiport.py 192.168.1.1 -p 80 -pl 53,8080 -pr 21-22
