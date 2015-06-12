@@ -1,4 +1,4 @@
-# Multuport
+# Multiport
 =========
 
 Multiport is a port scanning utility designed in Python.
