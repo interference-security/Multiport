@@ -1,5 +1,5 @@
 # Multiport
-=========
+
 Multiport is a port scanning utility designed in Python.
 It accepts the target and ports (single port, port list and port range) as user input. Then scans the target for the port(s) status using the scanning techniques all at once. The output is displayed in a tabular format.
 
